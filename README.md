@@ -1,12 +1,5 @@
 <h1 align="center"> Análise exploratória </h1>
 
-## Índice 
-* [data](#data)
-* [Objetivo](Objetivo)
-* [Dataset](Dataset)
-* [data](data)
-
-* 
 ## Descrição
 
 Escrever a descrição do projeto...
@@ -21,7 +14,7 @@ Análise Exploratória de Dados: Realizar uma análise exploratória para
 ## Dataset
 O dataset utilizado neste projeto é composto por um arquivo principai:
 
-[Dataset](data/)
+* [Dataset](data/)
 
 ## Integrantes 
 Este projeto foi desenvolvido pelos seguintes integrantes:
