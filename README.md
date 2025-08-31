@@ -1,7 +1,7 @@
 <h1 align="center"> Análise exploratória </h1>
 
 ## Índice 
-* [data](#Descrição)
+* [data](#data)
 * [Objetivo](Objetivo)
 * [Dataset](Dataset)
 * [Integrantes](Integrantes)
