@@ -15,7 +15,7 @@ O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023
 ## Dataset
 O dataset utilizado neste projeto é composto por um arquivo principal:
 
-* [Dataset](data/)
+* [Dataset](data_yt.csv)
 
 
 ## Integrantes
