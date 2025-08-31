@@ -8,7 +8,7 @@ O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023
 
 ## Objetivo
 
-**Tratamento e Preparação dos Dados:** fazer a preparação dos dados, remover dados inconsistentes, repetidos e limpeza completa para a análise exploratória dos dados corretamente sem comprometer a próxima etapa 
+**Tratamento e Preparação dos Dados:** fazer a preparação dos dados, remover dados inconsistentes, repetidos e limpeza completa para a análise exploratória dos dados corretamente sem comprometer a próxima etapa.
 
 **Análise Exploratória de Dados:** Realizar uma análise exploratória para 
 
