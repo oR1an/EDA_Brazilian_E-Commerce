@@ -17,8 +17,7 @@ O dataset utilizado neste projeto é composto por um arquivo principal:
 
 * [Dataset](data/)
 
+
 ## Integrantes
 Este projeto foi desenvolvido pelos seguintes integrantes:
--
--
--
+
