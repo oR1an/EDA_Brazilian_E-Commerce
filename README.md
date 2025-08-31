@@ -2,9 +2,9 @@
 
 ## Descrição
 
-Escrever a descrição do projeto...\
-A solução será baseada em um conjunto de dados público disponível no Kaggle, contendo informações sobre ..... \
-O dataset pode ser acessado por meio do seguinte link: [Walmart_Sales](https://www.kaggle.com/datasets/mikhail1681/walmart-sales)
+Projeto desenvolvido para a disciplina de **Projeto aplicado I** do curso Banco de dados da Universidade Presbiteriana Mackenzie, segundo semestre. \
+O foco deste projeto é desenvolver uma análise exploratória de dados. Escolhemos extrair os dados de uma base de dados pública, disponível no Kaggle, contendo todas as infomações detalhadas dos canais do youtube e informações estatísticas.\
+O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data)
 
 ## Objetivo
 
