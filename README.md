@@ -1,4 +1,4 @@
-<h1 align="center"> Análise exploratória </h1>
+ <h1 align="center"> Análise exploratória </h1>
 
 ## Descrição
 
@@ -26,8 +26,8 @@ Este projeto foi desenvolvido pelos seguintes integrantes:
 -
 
 
-Universidade Presbiteriana Mackenzie
-Curso Banco de dados
-Projeto Aplicado I - 2º Semestre  2025
+Universidade Presbiteriana Mackenzie ** (\**)
+Curso Banco de dados ** (\**)
+Projeto Aplicado I - 2º Semestre  2025** (\**)
 
 
