@@ -20,9 +20,9 @@ O dataset utilizado neste projeto é composto por um arquivo principal:
 
 
 **Referências de Aquisição do Dataset:** 
-**Origem dos Dados:** O conjunto de dados foi obtido por meio da plataforma Kaggle, um repositório online de datasets para projetos de ciência de dados e machine learning. O dataset específico utilizado é intitulado "Global Youtube Statistics 2023"(https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data) e foi disponibilizado pelo usuário Nidula Elgiriyewithana .
-**Originalidade e Limitações:** É importante notar que este dataset é uma compilação de terceiros. O criador original não é conhecido e a metodologia exata de coleta, tratamento e agregação dos dados não foi explicitamente documentada. Portanto, este projeto parte do pressuposto de que os dados fornecidos são precisos e coletados de forma ética, mas essa é uma limitação inerente da fonte.
-**Período da Coleta:** A coleta de dados teve início em 2023 e é mantida com a previsão de atualizações anuais.
+**Origem dos Dados:** O conjunto de dados foi obtido por meio da plataforma Kaggle, um repositório online de datasets para projetos de ciência de dados e machine learning. O dataset específico utilizado é intitulado "Global Youtube Statistics 2023"(https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data) e foi disponibilizado pelo usuário Nidula Elgiriyewithana .\
+**Originalidade e Limitações:** É importante notar que este dataset é uma compilação de terceiros. O criador original não é conhecido e a metodologia exata de coleta, tratamento e agregação dos dados não foi explicitamente documentada. Portanto, este projeto parte do pressuposto de que os dados fornecidos são precisos e coletados de forma ética, mas essa é uma limitação inerente da fonte.\
+**Período da Coleta:** A coleta de dados teve início em 2023 e é mantida com a previsão de atualizações anuais.\
 
 **Limitações de Uso:** Por se tratar de um dataset público de fonte secundária, seu uso é estritamente para fins acadêmicos e de pesquisa neste projeto. Todos os insights gerados devem ser interpretados com a devida consideração das limitações de proveniência e metodologia mencionadas acima.
 
