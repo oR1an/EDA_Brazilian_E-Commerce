@@ -7,7 +7,7 @@ O foco deste projeto é desenvolver uma análise exploratória de dados. Escolhe
 O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data)
 
 ## Objetivo
-O nosso objetivo principal é identificar os principais fatores por trás do sucesso de canais do YouTube e visualizar tendências globais presentes nos dados. Para isso, vamos empregar técnicas de Análise Exploratória de Dados (EDA) para visualizar os dados e extrair insights significativos.
+
 
 **Tratamento e Preparação dos Dados:** fazer a preparação dos dados, remover dados inconsistentes, repetidos e limpeza completa para a análise exploratória dos dados corretamente sem comprometer a próxima etapa.
 
