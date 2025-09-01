@@ -10,7 +10,7 @@ O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023
 
 **Tratamento e Preparação dos Dados:** fazer a preparação dos dados, remover dados inconsistentes, repetidos e limpeza completa para a análise exploratória dos dados corretamente sem comprometer a próxima etapa.
 
-**Análise Exploratória de Dados:** Realizar uma análise exploratória para 
+**Análise Exploratória de Dados:** Realizar uma análise exploratória para analisar fatores que influenciam o sucesso dos canais, comparar desempenhos entre diferentes categorias, países e tipos de canais.
 
 ## Dataset
 O dataset utilizado neste projeto é composto por um arquivo principal:
