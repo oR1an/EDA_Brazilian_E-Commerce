@@ -11,24 +11,53 @@ Os dados utilizados foram extraídos de uma base pública disponível no Kaggle,
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo Principal
 
-- **Tratamento e Preparação dos Dados:** limpeza e preparação do dataset, removendo registros inconsistentes ou duplicados e garantindo a integridade das informações para análise.  
-- **Análise Exploratória de Dados:** identificar padrões de compra, comportamento dos clientes, desempenho das categorias de produtos, métodos de pagamento mais utilizados e fatores que influenciam a satisfação dos consumidores.
+**Pergunta central:**  
+Como a **localização**, o **vendedor**, a **categoria do produto** e os **atrasos nas entregas** impactam as notas de avaliação (*review scores*) dos clientes?
+
+### a) Análise da Taxa de Atraso vs. Notas de Avaliação
+- **Fonte de Dados:** `olist_orders_dataset` & `olist_products_dataset`  
+- **Preparação dos Dados:**  
+  - Remover valores nulos das colunas de data.  
+  - Converter datas para o formato `datetime`.  
+  - Calcular o atraso em dias para cada pedido (`data real de entrega - data estimada de entrega`).  
+  - Calcular a taxa média de atraso.  
+- **Análise:**  
+  - Visualizar a taxa média de atraso.  
+  - Comparar notas de avaliação para pedidos **com atraso acima e abaixo da média**.  
+
+### b) Desempenho do Vendedor
+- Identificar **qual vendedor tem a maior taxa de pedidos atrasados**.  
+
+### c) Análise Geográfica
+- Determinar **em quais zonas geográficas** (estados/municípios) os pedidos são mais frequentemente atrasados.  
+
+### d) Análise Multifatorial
+- **Pergunta-chave:** O atraso é o único fator que reduz as notas de avaliação?  
+- **Subperguntas:**  
+  - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
+  - Existe algum estado que contribui de forma desproporcional para o número de avaliações ruins?  
+  - Quais **categorias de produtos** concentram a maioria das avaliações ruins?  
+
+---
+
+## 📌 Conclusão Esperada
+Sintetizar os resultados para determinar como cada fator — **desempenho do vendedor**, **localização geográfica**, **categoria do produto** e **atraso nas entregas** — impacta **individualmente** e **coletivamente** as notas de avaliação dos clientes.  
 
 ---
 
 ## 🗂️ Dataset
 
-O dataset é composto por múltiplos arquivos relacionais, entre eles:
 
-- `olist_orders_dataset.csv` — informações dos pedidos  
-- `olist_order_items_dataset.csv` — itens de cada pedido  
-- `olist_products_dataset.csv` — detalhes dos produtos  
-- `olist_customers_dataset.csv` — dados de clientes  
-- `olist_order_payments_dataset.csv` — informações de pagamento  
-- `olist_order_reviews_dataset.csv` — avaliações dos clientes  
-- `product_category_name_translation.csv` — tradução das categorias de produtos  
+- `olist_orders_dataset.csv`  (usado)  
+- `olist_order_reviews_dataset.csv`  (usado)  
+- `olist_products_dataset.csv`  (usado)  
+- `olist_geolocation_dataset.csv`  (usado)  
+- `olist_order_items_dataset.csv`  -
+- `olist_customers_dataset.csv`   -
+- `olist_order_payments_dataset.csv`   -
+- `product_category_name_translation.csv` -
 
 ---
 
@@ -47,10 +76,11 @@ O dataset é composto por múltiplos arquivos relacionais, entre eles:
   Por se tratar de um dataset público e de fonte secundária, seu uso é destinado a fins acadêmicos e de pesquisa. Os insights devem ser analisados considerando as limitações de representatividade (somente dados da Olist) e possíveis simplificações feitas para a versão pública.  
 
 
+
 ## Integrantes
 Este projeto foi desenvolvido pelos seguintes integrantes:
 
--
+- Ryan Rodrigues Pereira
 -
 -
 
