@@ -17,7 +17,6 @@ Os dados utilizados foram extraídos de uma base pública disponível no Kaggle,
 Como a **localização**, o **vendedor**, a **categoria do produto** e os **atrasos nas entregas** impactam as notas de avaliação (*review scores*) dos clientes?
 
 ### a) Análise da Taxa de Atraso vs. Notas de Avaliação
-- **Fonte de Dados:** `olist_orders_dataset` & `olist_products_dataset`  
 - **Preparação dos Dados:**  
   - Remover valores nulos das colunas de data.  
   - Converter datas para o formato `datetime`.  
