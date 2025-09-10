@@ -1,33 +1,50 @@
- <h1 align="center"> Análise exploratória </h1>
+<h1 align="center"> Análise exploratória </h1>
 
-## Descrição
+## 📌 Descrição
 
-Projeto desenvolvido para a disciplina de **Projeto aplicado I** do curso Banco de dados da Universidade Presbiteriana Mackenzie, segundo semestre. \
-O foco deste projeto é desenvolver uma análise exploratória de dados. Escolhemos extrair os dados de uma base de dados pública, disponível no Kaggle, contendo todas as infomações detalhadas dos canais do youtube e informações estatísticas.\
-O dataset pode ser acessado por meio deste link: [Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data)
+Projeto desenvolvido para a disciplina de **Projeto aplicado I** do curso Banco de Dados da Universidade Presbiteriana Mackenzie, segundo semestre.  
+O foco deste projeto é desenvolver uma análise exploratória de dados.  
 
-## Objetivo
+Os dados utilizados foram extraídos de uma base pública disponível no Kaggle, contendo informações detalhadas sobre o comércio eletrônico no Brasil, incluindo pedidos, produtos, clientes, pagamentos e avaliações de satisfação.  
 
+📂 Dataset disponível em: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
 
-**Tratamento e Preparação dos Dados:** fazer a preparação dos dados, remover dados inconsistentes, repetidos e limpeza completa para a análise exploratória dos dados corretamente sem comprometer a próxima etapa.
+---
 
-**Análise Exploratória de Dados:** Realizar uma análise exploratória para analisar fatores que influenciam o sucesso dos canais, comparar desempenhos entre diferentes categorias, países e tipos de canais.
+## 🎯 Objetivo
 
-## Dataset
-O dataset utilizado neste projeto é composto por um arquivo principal:
+- **Tratamento e Preparação dos Dados:** limpeza e preparação do dataset, removendo registros inconsistentes ou duplicados e garantindo a integridade das informações para análise.  
+- **Análise Exploratória de Dados:** identificar padrões de compra, comportamento dos clientes, desempenho das categorias de produtos, métodos de pagamento mais utilizados e fatores que influenciam a satisfação dos consumidores.
 
-* [Dataset](data_yt.csv)
+---
 
+## 🗂️ Dataset
 
-**Referências de Aquisição do Dataset:** 
+O dataset é composto por múltiplos arquivos relacionais, entre eles:
 
-**Origem dos Dados:** O conjunto de dados foi obtido por meio da plataforma Kaggle, um repositório online de datasets para projetos de ciência de dados e machine learning. O dataset específico utilizado é intitulado "Global Youtube Statistics 2023"(https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023/data) e foi disponibilizado pelo usuário Nidula Elgiriyewithana .
+- `olist_orders_dataset.csv` — informações dos pedidos  
+- `olist_order_items_dataset.csv` — itens de cada pedido  
+- `olist_products_dataset.csv` — detalhes dos produtos  
+- `olist_customers_dataset.csv` — dados de clientes  
+- `olist_order_payments_dataset.csv` — informações de pagamento  
+- `olist_order_reviews_dataset.csv` — avaliações dos clientes  
+- `product_category_name_translation.csv` — tradução das categorias de produtos  
 
-**Originalidade e Limitações:** É importante notar que este dataset é uma compilação de terceiros. O criador original não é conhecido e a metodologia exata de coleta, tratamento e agregação dos dados não foi explicitamente documentada. Portanto, este projeto parte do pressuposto de que os dados fornecidos são precisos e coletados de forma ética, mas essa é uma limitação inerente da fonte.
+---
 
-**Período da Coleta:** A coleta de dados teve início em 2023 e é mantida com a previsão de atualizações anuais.
+## 📖 Referências do Dataset
 
-**Limitações de Uso:** Por se tratar de um dataset público de fonte secundária, seu uso é estritamente para fins acadêmicos e de pesquisa neste projeto. Todos os insights gerados devem ser interpretados com a devida consideração das limitações de proveniência e metodologia mencionadas acima.
+- **Origem dos Dados:**  
+  O conjunto de dados foi obtido por meio da plataforma **Kaggle**, no dataset *Brazilian E-Commerce Public Dataset by Olist* (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data), disponibilizado pela empresa **Olist**.  
+
+- **Originalidade e Limitações:**  
+  Este dataset foi construído a partir de transações reais realizadas na plataforma Olist. Os dados são anonimizados, e algumas informações foram traduzidas para maior acessibilidade.  
+
+- **Período da Coleta:**  
+  Os pedidos foram realizados entre **2016 e 2018**.  
+
+- **Limitações de Uso:**  
+  Por se tratar de um dataset público e de fonte secundária, seu uso é destinado a fins acadêmicos e de pesquisa. Os insights devem ser analisados considerando as limitações de representatividade (somente dados da Olist) e possíveis simplificações feitas para a versão pública.  
 
 
 ## Integrantes
