@@ -1,4 +1,4 @@
-<h1 align="center"> Datasets </h1>
+#<h1 align="center"> Datasets </h1>
 
 Os datasets utilizados neste projeto são grandes demais para serem armazenados diretamente neste repositório.
 
@@ -19,4 +19,3 @@ Todos os arquivos originais estão disponíveis nesta pasta do Google Drive:
 - `olist_order_payments_dataset.csv`
 - `product_category_name_translation.csv`
 
-> ⚠ **Nota:** Para reproduzir as análises deste projeto, faça o download dos arquivos listados em “Arquivos Utilizados no Projeto”.
