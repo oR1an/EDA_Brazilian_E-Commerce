@@ -80,8 +80,8 @@ Sintetizar os resultados para determinar como cada fator — **desempenho do ven
 Este projeto foi desenvolvido pelos seguintes integrantes:
 
 - Ryan Rodrigues Pereira
--
--
+- Nour Hussein Barakat
+- Guilherme de Araújo Esp. Santo
 
 
 **Universidade Presbiteriana Mackenzie** \
