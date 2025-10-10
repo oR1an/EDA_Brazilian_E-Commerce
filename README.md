@@ -14,9 +14,9 @@ Os dados utilizados foram extraídos de uma base pública disponível no Kaggle,
 ## 🎯 **Objetivo Principal**
 
 **Pergunta central:**  
-Como a **localização geográfica** e os **atrasos nas entregas** impactam as **notas de avaliação** (*review scores*) dos clientes?
+Como a **localização geográfica**, a **categoria do produto** e os **atrasos nas entregas** impactam as **notas de avaliação** (*review scores*) dos clientes?
 
-> *(Os fatores “vendedor” e “categoria do produto” são mencionados apenas como possíveis extensões futuras, fora do escopo principal deste estudo, devido à limitação das bases utilizadas.)*
+> *(Os fatores “vendedor” e outros aspectos complementares são mencionados apenas como possíveis extensões futuras, fora do escopo principal deste estudo, devido à limitação das bases utilizadas.)*
 
 ---
 
@@ -38,20 +38,27 @@ Como a **localização geográfica** e os **atrasos nas entregas** impactam as *
 
 ---
 
-### c) **Análise Multifatorial**
+### c) **Análise por Categoria de Produto**
+- Avaliar **quais categorias** concentram a maior proporção de **avaliações negativas**.  
+- Verificar se há relação entre **tipo de produto** e **tempo médio de entrega**.  
+
+---
+
+### d) **Análise Multifatorial**
 - **Pergunta-chave:** O atraso na entrega é o único fator que reduz as notas de avaliação?  
 - **Subperguntas:**
   - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
-  - Existem **regiões** que concentram uma proporção maior de avaliações negativas?  
-  - Há correlação significativa entre **tempo de entrega** e **nota atribuída pelo cliente**?  
+  - Existem **regiões** que concentram mais avaliações negativas?  
+  - Há **categorias específicas** com notas consistentemente menores, mesmo sem atraso?  
 
 ---
 
 ## 📌 **Conclusão Esperada**
 
-Com base nas análises, espera-se identificar **como os atrasos e a localização** impactam a satisfação do cliente, mensurada pelas *review scores*.  
+Com base nas análises, espera-se identificar **como os atrasos, a localização e as categorias de produtos** impactam a satisfação do cliente, medida pelas *review scores*.  
 
-Além disso, pretende-se discutir se os **atrasos nas entregas** são, de fato, o **principal fator determinante** das notas baixas, ou se **aspectos regionais** (como distância e logística) também exercem influência relevante.  
+Além disso, busca-se compreender se os **atrasos nas entregas** são, de fato, o **principal fator determinante** das notas baixas, ou se **aspectos regionais e de categoria** também influenciam significativamente a percepção dos consumidores.
+
 
 
 
@@ -62,7 +69,7 @@ Além disso, pretende-se discutir se os **atrasos nas entregas** são, de fato, 
 
 - `olist_orders_dataset.csv`  (usado)  
 - `olist_order_reviews_dataset.csv`  (usado)  
-- `olist_products_dataset.csv`  
+- `olist_products_dataset.csv`  (usado)
 - `olist_geolocation_dataset.csv`  (usado)  
 - `olist_order_items_dataset.csv`  -
 - `olist_customers_dataset.csv`   -
