@@ -33,14 +33,12 @@ Como a **localização geográfica**, a **categoria do produto** e os **atrasos 
 ---
 
 ### b) **Análise Geográfica**
-- Cruzar os pedidos com os dados de **geolocalização** para identificar diferenças regionais de satisfação.  
 - Determinar **em quais estados ou cidades** os pedidos tendem a ter **maiores índices de atraso** ou **menores notas de avaliação**.  
 
 ---
 
 ### c) **Análise por Categoria de Produto**
 - Avaliar **quais categorias** concentram a maior proporção de **avaliações negativas**.  
-- Verificar se há relação entre **tipo de produto** e **tempo médio de entrega**.  
 
 ---
 
@@ -49,7 +47,6 @@ Como a **localização geográfica**, a **categoria do produto** e os **atrasos 
 - **Subperguntas:**
   - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
   - Existem **regiões** que concentram mais avaliações negativas?  
-  - Há **categorias específicas** com notas consistentemente menores, mesmo sem atraso?  
 
 ---
 
