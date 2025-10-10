@@ -53,7 +53,6 @@ Com base nas análises, espera-se identificar **como os atrasos e a localizaçã
 
 Além disso, pretende-se discutir se os **atrasos nas entregas** são, de fato, o **principal fator determinante** das notas baixas, ou se **aspectos regionais** (como distância e logística) também exercem influência relevante.  
 
-> Como extensão futura, este estudo poderá incorporar as bases de **vendedores** e **produtos**, permitindo avaliar diferenças por **categoria** e **performance de seller**, ampliando o escopo da análise.
 
 
 ---
@@ -63,7 +62,7 @@ Além disso, pretende-se discutir se os **atrasos nas entregas** são, de fato, 
 
 - `olist_orders_dataset.csv`  (usado)  
 - `olist_order_reviews_dataset.csv`  (usado)  
-- `olist_products_dataset.csv`  (usado)  
+- `olist_products_dataset.csv`  
 - `olist_geolocation_dataset.csv`  (usado)  
 - `olist_order_items_dataset.csv`  -
 - `olist_customers_dataset.csv`   -
