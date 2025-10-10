@@ -11,38 +11,50 @@ Os dados utilizados foram extraídos de uma base pública disponível no Kaggle,
 
 ---
 
-## 🎯 Objetivo Principal
+## 🎯 **Objetivo Principal**
 
 **Pergunta central:**  
-Como a **localização**, o **vendedor**, a **categoria do produto** e os **atrasos nas entregas** impactam as notas de avaliação (*review scores*) dos clientes?
+Como a **localização geográfica** e os **atrasos nas entregas** impactam as **notas de avaliação** (*review scores*) dos clientes?
 
-### a) Análise da Taxa de Atraso vs. Notas de Avaliação
-- **Preparação dos Dados:**  
-  - Remover valores nulos das colunas de data.  
-  - Converter datas para o formato `datetime`.  
-  - Calcular o atraso em dias para cada pedido (`data real de entrega - data estimada de entrega`).  
-  - Calcular a taxa média de atraso.  
-- **Análise:**  
-  - Visualizar a taxa média de atraso.  
-  - Comparar notas de avaliação para pedidos **com atraso acima e abaixo da média**.  
-
-### b) Desempenho do Vendedor
-- Identificar **qual vendedor tem a maior taxa de pedidos atrasados**.  
-
-### c) Análise Geográfica
-- Determinar **em quais zonas geográficas** (estados/municípios) os pedidos são mais frequentemente atrasados.  
-
-### d) Análise Multifatorial
-- **Pergunta-chave:** O atraso é o único fator que reduz as notas de avaliação?  
-- **Subperguntas:**  
-  - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
-  - Existe algum estado que contribui de forma desproporcional para o número de avaliações ruins?  
-  - Quais **categorias de produtos** concentram a maioria das avaliações ruins?  
+> *(Os fatores “vendedor” e “categoria do produto” são mencionados apenas como possíveis extensões futuras, fora do escopo principal deste estudo, devido à limitação das bases utilizadas.)*
 
 ---
 
-## 📌 Conclusão Esperada
-Sintetizar os resultados para determinar como cada fator — **desempenho do vendedor**, **localização geográfica**, **categoria do produto** e **atraso nas entregas** — impacta **individualmente** e **coletivamente** as notas de avaliação dos clientes.  
+### a) **Análise da Taxa de Atraso vs. Notas de Avaliação**
+- **Preparação dos Dados:**
+  - Remover valores nulos nas colunas de data.  
+  - Converter datas para o formato `datetime`.  
+  - Calcular o atraso em dias para cada pedido (`data real de entrega - data estimada de entrega`).  
+  - Calcular a **média de atraso** entre os pedidos entregues.  
+- **Análise:**
+  - Identificar a **distribuição dos atrasos**.  
+  - Comparar as **notas de avaliação** entre pedidos **atrasados** e **entregues dentro do prazo**.  
+
+---
+
+### b) **Análise Geográfica**
+- Cruzar os pedidos com os dados de **geolocalização** para identificar diferenças regionais de satisfação.  
+- Determinar **em quais estados ou cidades** os pedidos tendem a ter **maiores índices de atraso** ou **menores notas de avaliação**.  
+
+---
+
+### c) **Análise Multifatorial**
+- **Pergunta-chave:** O atraso na entrega é o único fator que reduz as notas de avaliação?  
+- **Subperguntas:**
+  - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
+  - Existem **regiões** que concentram uma proporção maior de avaliações negativas?  
+  - Há correlação significativa entre **tempo de entrega** e **nota atribuída pelo cliente**?  
+
+---
+
+## 📌 **Conclusão Esperada**
+
+Com base nas análises, espera-se identificar **como os atrasos e a localização** impactam a satisfação do cliente, mensurada pelas *review scores*.  
+
+Além disso, pretende-se discutir se os **atrasos nas entregas** são, de fato, o **principal fator determinante** das notas baixas, ou se **aspectos regionais** (como distância e logística) também exercem influência relevante.  
+
+> Como extensão futura, este estudo poderá incorporar as bases de **vendedores** e **produtos**, permitindo avaliar diferenças por **categoria** e **performance de seller**, ampliando o escopo da análise.
+
 
 ---
 
