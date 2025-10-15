@@ -45,7 +45,7 @@ Como a **localização geográfica**, a **categoria do produto** e os **atrasos 
 ### d) **Análise Multifatorial**
 - **Pergunta-chave:** O atraso na entrega é o único fator que reduz as notas de avaliação?  
 - **Subperguntas:**
-  - Dentre as avaliações abaixo da média, qual porcentagem corresponde a pedidos atrasados?  
+  - Dentre as avaliações, qual a média das notas de pedidos atrasados e no prazo?
   - Existem **regiões** que concentram mais avaliações negativas?  
 
 ---
