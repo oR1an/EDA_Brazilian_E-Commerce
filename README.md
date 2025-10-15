@@ -69,7 +69,7 @@ Além disso, busca-se compreender se os **atrasos nas entregas** são, de fato, 
 - `olist_products_dataset.csv`  (usado)
 - `olist_geolocation_dataset.csv`  (usado)  
 - `olist_order_items_dataset.csv`  -
-- `olist_customers_dataset.csv`   -
+- `olist_customers_dataset.csv`   (usado) 
 - `olist_order_payments_dataset.csv`   -
 - `product_category_name_translation.csv` -
 
