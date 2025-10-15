@@ -52,7 +52,7 @@ Como a **localização geográfica**, a **categoria do produto** e os **atrasos 
 
 ## 📌 **Conclusão Esperada**
 
-Com base nas análises, espera-se identificar **como os atrasos, a localização e as categorias de produtos** impactam a satisfação do cliente, medida pelas *review scores*.  
+Com base nas análises, espera-se identificar **como os atrasos, a localização e as categorias de produtos** impactam a satisfação do cliente.
 
 Além disso, busca-se compreender se os **atrasos nas entregas** são, de fato, o **principal fator determinante** das notas baixas, ou se **aspectos regionais e de categoria** também influenciam significativamente a percepção dos consumidores.
 
