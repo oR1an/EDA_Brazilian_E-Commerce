@@ -1,17 +1,17 @@
 <h1 align="center"> Análise exploratória </h1>
 
-## 📌 Descrição
+## Descrição
 
 Projeto desenvolvido para a disciplina de **Projeto aplicado I** do curso Banco de Dados da Universidade Presbiteriana Mackenzie, segundo semestre.  
 O foco deste projeto é desenvolver uma análise exploratória de dados.  
 
 Os dados utilizados foram extraídos de uma base pública disponível no Kaggle, contendo informações detalhadas sobre o comércio eletrônico no Brasil, incluindo pedidos, produtos, clientes, pagamentos e avaliações de satisfação.  
 
-📂 Dataset disponível em: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
+ Dataset disponível em: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
 
 ---
 
-## 🎯 **Objetivo Principal**
+## **Objetivo Principal**
 
 **Pergunta central:**  
 Como a **localização geográfica**, a **categoria do produto** e os **atrasos nas entregas** impactam as **notas de avaliação** (*review scores*) dos clientes?
@@ -50,7 +50,7 @@ Como a **localização geográfica**, a **categoria do produto** e os **atrasos 
 
 ---
 
-## 📌 **Conclusão Esperada**
+##  **Conclusão Esperada**
 
 Com base nas análises, espera-se identificar **como os atrasos, a localização e as categorias de produtos** impactam a satisfação do cliente.
 
@@ -61,7 +61,7 @@ Além disso, busca-se compreender se os **atrasos nas entregas** são, de fato, 
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 
 - `olist_orders_dataset.csv`  (usado)  
@@ -75,7 +75,7 @@ Além disso, busca-se compreender se os **atrasos nas entregas** são, de fato, 
 
 ---
 
-## 📖 Referências do Dataset
+##  Referências do Dataset
 
 - **Origem dos Dados:**  
   O conjunto de dados foi obtido por meio da plataforma **Kaggle**, no dataset *Brazilian E-Commerce Public Dataset by Olist* (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data), disponibilizado pela empresa **Olist**.  
