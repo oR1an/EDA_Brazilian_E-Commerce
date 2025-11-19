@@ -9,7 +9,7 @@ Os dados utilizados foram extraídos de uma base pública disponível no Kaggle,
 
 Dataset disponível em: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
 
-Toda a análise e gráficos estão disponíveis na pasta [Documentação](./Documentação)
+Toda a análise e gráficos estão disponíveis na pasta [Documentação](./Documentação.pdf)
 
 ---
 
